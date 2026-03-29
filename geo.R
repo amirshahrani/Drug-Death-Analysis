@@ -1,4 +1,6 @@
 # geo.R
+library(ggplot2)
+library(maps)
 
 # Build city-level growth trends from the globally prepared raw dataset `df`.
 build_geo_hotspots <- function(df_input) {
